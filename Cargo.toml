@@ -1,0 +1,20 @@
+[package]
+name = "macos-wp"
+version = "0.1.0"
+edition = "2021"
+description = "Tiny CLI for managing macOS wallpapers per display (including new Spaces)"
+license = "Unlicense"
+
+[[bin]]
+name = "macos-wp"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+plist = "1"
+percent-encoding = "2"
+
+[profile.release]
+lto = true
+strip = true
