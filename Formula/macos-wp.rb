@@ -11,11 +11,11 @@ class MacosWp < Formula
   on_macos do
     on_arm do
       url "https://github.com/marek-vybiral/homebrew-macos-wp/releases/download/v#{version}/macos-wp-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_AARCH64_SHA256"
+      sha256 "fd2df22120b1b96614532fe357472709c77067c0a9e8d2381f4433406b94de77"
     end
     on_intel do
       url "https://github.com/marek-vybiral/homebrew-macos-wp/releases/download/v#{version}/macos-wp-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_X86_64_SHA256"
+      sha256 "99a4094280fcc4c1fc1b16648101da49639c6bc2078049775895e3e33be263f3"
     end
   end
 
