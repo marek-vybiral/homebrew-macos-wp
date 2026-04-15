@@ -9,13 +9,13 @@ macOS's built-in wallpaper UI doesn't propagate a display's wallpaper to Spaces 
 Requires macOS 26 (Tahoe).
 
 ```
-brew install YOUR_GH_USERNAME/macos-wp/macos-wp
+brew install marek-vybiral/macos-wp/macos-wp
 ```
 
 Or build from source (requires Rust):
 
 ```
-git clone https://github.com/YOUR_GH_USERNAME/homebrew-macos-wp
+git clone https://github.com/marek-vybiral/homebrew-macos-wp
 cd homebrew-macos-wp
 cargo install --path .
 ```
